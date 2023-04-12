@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Results summary component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+  <link rel="stylesheet" href="style.css"><link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,400;0,500;0,700;1,700&family=Hanken+Grotesk:wght@500;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+  
+  <div id="summary-card">
+    
+    <div id="first-section">
+      <h4>Your Result</h4>
+      <div id="grade-container">
+        <h2>76</h2>
+        <p>of 100</p>
+      </div>
+      <h3>Great</h3>
+      <p id="text">You scored higher than 65% of the people who have taken these tests.</p>
+    </div>
+    <div id="second-section">
+      <h3>Summary</h3>
+      
+      <div class="summary-container">
+        <div class="summary sum-1">
+        <div class="left">
+          <img src="assets/images/icon-reaction.svg">
+          <span class="sum-text">Reaction</span>
+        </div>
+        <div class="right">
+          <span>80</span><span> / 100</span>
+        </div>
+      </div>
+      
+      <div class="summary sum-2">
+        <div class="left">
+          <img src="assets/images/icon-memory.svg">
+          <span class="sum-text">Memory</span>
+        </div>
+        <div class="right">
+          <span>92</span><span> / 100</span>
+        </div>
+      </div>
+      
+      <div class="summary sum-3">
+        <div class="left">
+          <img src="assets/images/icon-verbal.svg">
+          <span class="sum-text">Verbal</span>
+        </div>
+        <div class="right">
+          <span>61</span><span> / 100</span>
+        </div>
+      </div>
+      
+      <div class="summary sum-4">
+        <div class="left">
+          <img src="assets/images/icon-visual.svg">
+          <span class="sum-text">Visual</span>
+        </div>
+        <div class="right">
+          <span>72</span><span> / 100</span>
+        </div>
+      </div>
+      <button id="continue-btn">Continue </button>
+      
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
