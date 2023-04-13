@@ -1,6 +1,5 @@
-# Frontend Mentor - Order summary card solution
+# Result-summary-component-main
 
-This is a solution to the [Order summary card challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj).
 
 ## Overview
 
@@ -10,13 +9,9 @@ Users are able to:
 
 - See hover states for interactive elements
 
-### Screenshot
-
-![](images/Screenshot.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
@@ -64,8 +59,3 @@ const favoriteFunc = (name) => {
   
 }
 ```
-
-## Author
-
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
