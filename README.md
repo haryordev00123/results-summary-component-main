@@ -3,7 +3,6 @@
 
 ## Overview
 
-### The challenge
 
 Users are able to:
 
